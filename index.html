@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+   <meta charset="UTF-8">
+   <title>Japanese Hiragana Drum Kit</title>
+   <link rel="stylesheet" href="japanese-style.css">
+   <meta http-equiv="Content-Security-Policy" content="default-src *; style-src 'self' http://* 'unsafe-inline'; script-src 'self' http://* 'unsafe-inline' 'unsafe-eval'" />
+
+</head>
+
+<body>	
+<div id="div1" class="keys visible" style="display:block" onclick="replace('div1','div2')">
+	<div data-key="81" class="key"><kbd>あ</kbd><span class="sound">a</span></div>
+	<audio data-key="81" src="sounds/a.mp3"></audio>
+
+	<div data-key="87" class="key"><kbd>い</kbd><span class="sound">i</span></div>
+	<audio data-key="87" src="sounds/i.mp3"></audio>
+
+	<div data-key="69" class="key"><kbd>う</kbd><span class="sound">u</span></div>
+	<audio data-key="69" src="sounds/u.mp3"></audio>
+
+	<div data-key="82" class="key"><kbd>え</kbd><span class="sound">e</span></div>
+	<audio data-key="82" src="sounds/e.mp3"></audio>
+
+	<div data-key="84" class="key"><kbd>お</kbd><span class="sound">o</span></div>
+	<audio data-key="84" src="sounds/o.mp3"></audio>
+
+	<audio data-key="13" class="mar" src="sounds/icejj.mp3"></audio>
+</div>
+
+<div id="div2" class="keys" style="display:none" onclick="replace('div2','div3')">
+	<div data-key="81" class="key"><kbd>か</kbd><span class="sound">ka</span></div>
+	<audio data-key="81" src="sounds/ka.mp3"></audio>
+
+	<div data-key="87" class="key"><kbd>き</kbd><span class="sound">ki</span></div>
+	<audio data-key="87" src="sounds/ki.mp3"></audio>
+
+	<div data-key="69" class="key"><kbd>く</kbd><span class="sound">ku</span></div>
+	<audio data-key="69" src="sounds/ku.mp3"></audio>
+
+	<div data-key="82" class="key"><kbd>け</kbd><span class="sound">ke</span></div>
+	<audio data-key="82" src="sounds/ke.mp3"></audio>
+
+	<div data-key="84" class="key"><kbd>こ</kbd><span class="sound">ko</span></div>
+	<audio data-key="84" src="sounds/ko.mp3"></audio>
+
+	<audio data-key="13" class="mar" src="sounds/icejj.mp3"></audio>
+</div>
+
+<div id="div3" class="keys" style="display:none" onclick="replace('div3','div4')">
+		<div data-key="81" class="key"><kbd>さ</kbd><span class="sound">sa</span></div>
+	<audio data-key="81" src="sounds/sa.mp3"></audio>
+
+	<div data-key="87" class="key"><kbd>し</kbd><span class="sound">shi</span></div>
+	<audio data-key="87" src="sounds/shi.mp3"></audio>
+
+	<div data-key="69" class="key"><kbd>す</kbd><span class="sound">su</span></div>
+	<audio data-key="69" src="sounds/su.mp3"></audio>
+
+	<div data-key="82" class="key"><kbd>せ</kbd><span class="sound">se</span></div>
+	<audio data-key="82" src="sounds/se.mp3"></audio>
+
+	<div data-key="84" class="key"><kbd>そ</kbd><span class="sound">so</span></div>
+	<audio data-key="84" src="sounds/so.mp3"></audio>
+
+	<audio data-key="13" class="mar" src="sounds/icejj.mp3"></audio>
+</div>
+
+<div id="div4" class="keys" style="display:none" onclick="replace('div4','div5')">
+		<div data-key="81" class="key"><kbd>た</kbd><span class="sound">ta</span></div>
+	<audio data-key="81" src="sounds/ta.mp3"></audio>
+
+	<div data-key="87" class="key"><kbd>ち</kbd><span class="sound">chi</span></div>
+	<audio data-key="87" src="sounds/chi.mp3"></audio>
+
+	<div data-key="69" class="key"><kbd>つ</kbd><span class="sound">tsu</span></div>
+	<audio data-key="69" src="sounds/tsu.mp3"></audio>
+
+	<div data-key="82" class="key"><kbd>て</kbd><span class="sound">te</span></div>
+	<audio data-key="82" src="sounds/te.mp3"></audio>
+
+	<div data-key="84" class="key"><kbd>と</kbd><span class="sound">to</span></div>
+	<audio data-key="84" src="sounds/to.mp3"></audio>
+
+	<audio data-key="13" class="mar" src="sounds/icejj.mp3"></audio>
+</div>
+
+<div id="div5" class="keys" style="display:none" onclick="replace('div5','div6')">
+		<div data-key="81" class="key"><kbd>な</kbd><span class="sound">na</span></div>
+	<audio data-key="81" src="sounds/na.mp3"></audio>
+
+	<div data-key="87" class="key"><kbd>に</kbd><span class="sound">ni</span></div>
+	<audio data-key="87" src="sounds/ni.mp3"></audio>
+
+	<div data-key="69" class="key"><kbd>ぬ</kbd><span class="sound">nu</span></div>
+	<audio data-key="69" src="sounds/nu.mp3"></audio>
+
+	<div data-key="82" class="key"><kbd>ね</kbd><span class="sound">ne</span></div>
+	<audio data-key="82" src="sounds/ne.mp3"></audio>
+
+	<div data-key="84" class="key"><kbd>の</kbd><span class="sound">no</span></div>
+	<audio data-key="84" src="sounds/no.mp3"></audio>
+
+	<audio data-key="13" class="mar" src="sounds/icejj.mp3"></audio>
+</div>
+
+<div id="div6" class="keys" style="display:none" onclick="replace('div6','div7')">
+		<div data-key="81" class="key"><kbd>は</kbd><span class="sound">ha</span></div>
+	<audio data-key="81" src="sounds/ha.mp3"></audio>
+
+	<div data-key="87" class="key"><kbd>ひ</kbd><span class="sound">hi</span></div>
+	<audio data-key="87" src="sounds/hi.mp3"></audio>
+
+	<div data-key="69" class="key"><kbd>ふ</kbd><span class="sound">fu</span></div>
+	<audio data-key="69" src="sounds/fu.mp3"></audio>
+
+	<div data-key="82" class="key"><kbd>へ</kbd><span class="sound">he</span></div>
+	<audio data-key="82" src="sounds/he.mp3"></audio>
+
+	<div data-key="84" class="key"><kbd>ほ</kbd><span class="sound">ho</span></div>
+	<audio data-key="84" src="sounds/ho.mp3"></audio>
+
+	<audio data-key="13" class="mar" src="sounds/icejj.mp3"></audio>
+</div>
+
+<div id="div7" class="keys" style="display:none" onclick="replace('div7','div8')">
+		<div data-key="81" class="key"><kbd>ま</kbd><span class="sound">ma</span></div>
+	<audio data-key="81" src="sounds/ma.mp3"></audio>
+
+	<div data-key="87" class="key"><kbd>み</kbd><span class="sound">mi</span></div>
+	<audio data-key="87" src="sounds/mi.mp3"></audio>
+
+	<div data-key="69" class="key"><kbd>む</kbd><span class="sound">mu</span></div>
+	<audio data-key="69" src="sounds/mu.mp3"></audio>
+
+	<div data-key="82" class="key"><kbd>め</kbd><span class="sound">me</span></div>
+	<audio data-key="82" src="sounds/me.mp3"></audio>
+
+	<div data-key="84" class="key"><kbd>も</kbd><span class="sound">mo</span></div>
+	<audio data-key="84" src="sounds/mo.mp3"></audio>
+
+	<audio data-key="13" class="mar" src="sounds/icejj.mp3"></audio>
+</div>
+
+<div id="div8" class="keys" style="display:none" onclick="replace('div8','div9')">
+		<div data-key="81" class="key"><kbd>や</kbd><span class="sound">ya</span></div>
+	<audio data-key="81" src="sounds/ya.mp3"></audio>
+
+	<div data-key="87" class="key"><kbd>ゆ</kbd><span class="sound">yu</span></div>
+	<audio data-key="87" src="sounds/yu.mp3"></audio>
+
+	<div data-key="69" class="key"><kbd>よ</kbd><span class="sound">yo</span></div>
+	<audio data-key="69" src="sounds/yo.mp3"></audio>
+
+	<audio data-key="13" class="mar" src="sounds/icejj.mp3"></audio>
+</div>
+
+<div id="div9" class="keys" style="display:none" onclick="replace('div9','div10')">
+		<div data-key="81" class="key"><kbd>ら</kbd><span class="sound">ra</span></div>
+	<audio data-key="81" src="sounds/ra.mp3"></audio>
+
+	<div data-key="87" class="key"><kbd>り</kbd><span class="sound">ri</span></div>
+	<audio data-key="87" src="sounds/ri.mp3"></audio>
+
+	<div data-key="69" class="key"><kbd>る</kbd><span class="sound">ru</span></div>
+	<audio data-key="69" src="sounds/ru.mp3"></audio>
+
+	<div data-key="82" class="key"><kbd>れ</kbd><span class="sound">re</span></div>
+	<audio data-key="82" src="sounds/re.mp3"></audio>
+
+	<div data-key="84" class="key"><kbd>ろ</kbd><span class="sound">ro</span></div>
+	<audio data-key="84" src="sounds/ro.mp3"></audio>
+
+	<audio data-key="13" class="mar" src="sounds/icejj.mp3"></audio>
+</div>
+
+<div id="div10" class="keys" style="display:none" onclick="replace('div10','div1')">
+		<div data-key="81" class="key"><kbd>わ</kbd><span class="sound">wa</span></div>
+	<audio data-key="81" src="sounds/wa.mp3"></audio>
+
+	<div data-key="87" class="key"><kbd>を</kbd><span class="sound">wo</span></div>
+	<audio data-key="87" src="sounds/wo.mp3"></audio>
+
+	<div data-key="69" class="key"><kbd>ん</kbd><span class="sound">n</span></div>
+	<audio data-key="69" src="sounds/n.mp3"></audio>
+
+	<audio data-key="13" class="mar" src="sounds/icejj.mp3"></audio>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
